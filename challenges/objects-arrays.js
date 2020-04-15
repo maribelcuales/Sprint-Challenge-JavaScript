@@ -36,11 +36,11 @@ const velociraptor = {
 
 // Using your dinosaur objects, log answers to these questions:
 
-// How much did tyrannosaurus weigh?
+// How much did tyrannosaurus weigh?it 
 console.log(tyrannosaurus.weight);
 
 // What was the diet of a velociraptor?
-console.log();
+console.log(velociraptor.diet);
 
 // How long was a stegosaurus?
 console.log();
