@@ -32,6 +32,7 @@ const velociraptor = {
   weight: '15kg',
   length: '1.8m',
   period: 'Late Cretaceous'
+  
 }
 
 // Using your dinosaur objects, log answers to these questions:
@@ -46,7 +47,7 @@ console.log(velociraptor.diet);
 console.log(stegosaurus.length);
 
 // What time period did tyrannosaurus live in?
-console.log();
+console.log(tyrannosaurus.period);
 
 
 // Create a new roar method for the tyrannosaurus.  When called, return "RAWERSRARARWERSARARARRRR!" Log the result.
