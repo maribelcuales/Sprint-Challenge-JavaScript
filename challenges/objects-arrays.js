@@ -171,3 +171,5 @@ console.log(universities2);
 const contactInfo2 = graduates.map((graduate) => `${graduate.first_name} ${graduate.email}`);
 console.log(contactInfo2);
 
+const populationTotal2 = zooAnimals.reduce((accumulator, animal) => accumulator + animal.population, 0);
+console.log(populationTotal2); 
