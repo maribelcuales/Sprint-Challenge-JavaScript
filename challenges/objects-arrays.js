@@ -87,7 +87,9 @@ The resulting contact information strings should have a space between the first 
 "Josh josh@example.com"
 
 Log the result of your new array. */
-const contactInfo = [];
+const contactInfo = graduates.map(function(graduate){
+  return `${graduate.first_name} ${graduate.email}`;
+})
 console.log(contactInfo);
 
 /* Request 3: Find out how many universities have the string "Uni" included in their name. Create a new array called unisWithUni that contains them all. This will be an array of objects. Log the result. */
