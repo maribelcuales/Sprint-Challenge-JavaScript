@@ -169,4 +169,7 @@ console.log(populationTotal);
 Stretch: If you haven't already, convert your array method callbacks into arrow functions.
 
 */
+const universities2 = graduates.map((item) => item.university);
+console.log(universities2);
+
 
