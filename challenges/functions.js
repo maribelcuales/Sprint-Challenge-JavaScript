@@ -28,6 +28,12 @@ function multiply(a, b){
 }
 console.log(consume(2, 5, multiply));
 
+function greeting(firstName, lastName){
+  return `Hello ${firstName} ${lastName}, nice to meet you!`;
+}
+console.log(consume('Daenerys', 'Targaryen', greeting));
+
+
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
 // console.log(consume(2, 2, add)); // 4
 // console.log(consume(10, 16, multiply)); // 160
