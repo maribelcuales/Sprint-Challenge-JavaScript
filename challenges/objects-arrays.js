@@ -172,4 +172,6 @@ Stretch: If you haven't already, convert your array method callbacks into arrow 
 const universities2 = graduates.map((item) => item.university);
 console.log(universities2);
 
+const contactInfo2 = graduates.map((graduate) => `${graduate.first_name} ${graduate.email}`);
+console.log(contactInfo2);
 
