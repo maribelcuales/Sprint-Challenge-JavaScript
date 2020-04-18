@@ -37,6 +37,7 @@ Edit this document to include your answers after each question. Make sure to lea
     A method is a function which is the value of a property of an object.  
 
 3. What is closure?
+    Closure allows us to use and put functions together. It allows us to use code that is declared somewhere else. One thing to note is that variables can be passed down but not back up.  
 
 4. Describe the four rules of the 'this' keyword.
 
