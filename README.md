@@ -32,6 +32,9 @@ Edit this document to include your answers after each question. Make sure to lea
     Both `.forEach` and `.map` iterate through the items in a given array. Their difference lies in the following: `.forEach` does not return a new array and the return keyword is optional. `.map`, on the other hand, returns a new array and needs the return keyword. 
 
 2. What is the difference between a function and a method?
+    A function is a set of statements or procedure that performs a task and one must call/ invoke the function in order for it to execute.  
+    
+    A method is a function which is the value of a property of an object.  
 
 3. What is closure?
 
