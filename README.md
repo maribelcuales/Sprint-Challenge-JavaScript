@@ -51,6 +51,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 
 5. Why do we need super() in an extended class?
+    It replaces the .call method and the old class syntax. It also binds the child to the parent.  
 
 ## Project Set up
 
