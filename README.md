@@ -40,6 +40,15 @@ Edit this document to include your answers after each question. Make sure to lea
     Closure allows us to use and put functions together. It allows us to use code that is declared somewhere else. One thing to note is that variables can be passed down but not back up.  
 
 4. Describe the four rules of the 'this' keyword.
+    The rules for 'this' are the following:
+    Principle 1: Window/Global Object Binding. The value of 'this' is the window/console object. 
+
+    Principle 2: Implicit Binding. Whenever a preceding dot calls a function, the object before the dot is this. 
+
+    Principle 3: New binding. This refers to the specific instance of the object that is created and returned by the constructor function. 
+
+    Principle 4: Explicit Binding. We use explicit binding when we use the call or apply method.  
+
 
 5. Why do we need super() in an extended class?
 
